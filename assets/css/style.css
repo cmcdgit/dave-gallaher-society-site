@@ -24,6 +24,10 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 main {
     background-color: lightblue;
     /* Fill the page with the main content pushing the footer to the bottom */
