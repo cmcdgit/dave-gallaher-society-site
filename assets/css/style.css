@@ -75,6 +75,7 @@ nav {
 
 .nav-toggle-label {
     padding-right: 30px;
+    padding-left: 10px;
     font-size: 2rem;
 }
 
@@ -93,4 +94,28 @@ main {
 
 footer {
     background-color: orange;
+}
+
+/* Media query for tablets and larger (>= 768px) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+
+    #options {
+        display: flex;
+    }
+
+    #options > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
