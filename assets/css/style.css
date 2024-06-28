@@ -1,0 +1,19 @@
+/* Using wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxg;
+}
+
+/* styles for header, main & footer */
+header {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: orange;
+}
