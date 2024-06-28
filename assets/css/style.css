@@ -48,6 +48,18 @@ header a {
     border-bottom: 1px solid rgb(9, 31, 31);;
 }
 
+/* Nav styings for dropdown */
+nav {
+    position: absolute;
+    /* bg-color same as header so same color as header when expanded  */
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
+
 h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
