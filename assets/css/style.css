@@ -101,6 +101,13 @@ main {
     position: relative;
 }
 
+#all-blacks {
+    height: 600px;
+    width: 100%;
+    background: url("../images/dave-gallaher-park.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 #cover-text {
     background-color: rgba(128, 124, 124, 0.362);
     font-size: 130%;
@@ -132,6 +139,14 @@ main {
     font-size: 160%;
     padding: 5%;
     color: rgb(9, 31, 31);
+}
+
+#about {
+    padding: 2rem;
+}
+
+#about h2 {
+    padding-bottom: 20px;
 }
 
 /* Media query for tablets and larger (>= 768px) */
@@ -187,6 +202,12 @@ main {
         height: 1300px;
         width: 100%;
         background: url("../images/hero_david-gallaher.jpg") no-repeat center center/cover;
+    }
+
+    #all-blacks {
+        height: 1300px;
+        width: 100%;
+        background: url("../images/dave-gallaher-park.jpg") no-repeat center center/cover;
     }
 
     /* target hero cover-text */
