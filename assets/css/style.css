@@ -86,10 +86,16 @@ h1 {
 }
 
 main {
-    background-color: lightblue;
     /* Fill the page with the main content pushing the footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero_david-gallaher.jpg") no-repeat center center/cover;
 }
 
 #useful-links {
@@ -146,5 +152,11 @@ main {
 @media screen and (min-width: 992px) {
     #options a:hover {
         border-bottom: 1px solid rgb(9, 31, 31);
+    }
+
+    #hero {
+        height: 1300px;
+        width: 100%;
+        background: url("../images/hero_david-gallaher.jpg") no-repeat center center/cover;
     }
 }
