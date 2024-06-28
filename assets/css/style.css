@@ -19,6 +19,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(9, 31, 31);
+}
+
 /* styles for header, main & footer */
 header {
     background-color: #ffffff;
@@ -79,12 +87,6 @@ nav {
     font-size: 2rem;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
-    color: rgb(9, 31, 31);
-}
-
 main {
     /* Fill the page with the main content pushing the footer to the bottom */
     flex: 1 0 auto;
@@ -96,6 +98,26 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero_david-gallaher.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(128, 124, 124, 0.362);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 75%;
+    min-height: 210px;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+#cover-text>h2 {
+    color: antiquewhite;
+    font-weight: bold;
+}
+#cover-text>h3 {
+    color: antiquewhite;
 }
 
 #useful-links {
@@ -146,6 +168,13 @@ main {
     main {
         margin-top: 75px;
     }
+
+    /* target hero cover-text */
+    #cover-text {
+        width: 220px;
+        right: 30px;
+        margin-bottom: 220px;
+    }
 }
 
 /* Media query for laptops and larger (>= 992px) */
@@ -158,5 +187,12 @@ main {
         height: 1300px;
         width: 100%;
         background: url("../images/hero_david-gallaher.jpg") no-repeat center center/cover;
+    }
+
+    /* target hero cover-text */
+    #cover-text {
+        width: 330px;
+        right: 30px;
+        margin-bottom: 890px;
     }
 }
