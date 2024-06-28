@@ -5,6 +5,16 @@
     box-sizing: border-boxg;
 }
 
+/* general styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles */
+    /* todo: review this colour later */
+    color: #3a3a3a;
+}
+
 /* styles for header, main & footer */
 header {
     background-color: lightcoral;
@@ -12,6 +22,8 @@ header {
 
 main {
     background-color: lightblue;
+    /* Fill the page with the main content pushing the footer to the bottom */
+    flex: 1 0 auto;
 }
 
 footer {
