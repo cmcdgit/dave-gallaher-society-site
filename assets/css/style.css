@@ -92,8 +92,18 @@ main {
     margin-top: 47px;
 }
 
-footer {
-    background-color: orange;
+#useful-links {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#useful-links i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(9, 31, 31);
 }
 
 /* Media query for tablets and larger (>= 768px) */
