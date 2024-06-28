@@ -43,7 +43,7 @@ header a {
     list-style-type: none;
 }
 
-#options > li {
+#options>li {
     margin-bottom: 1em;
 }
 
@@ -82,7 +82,7 @@ nav {
 h1 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
-    color:rgb(9, 31, 31);
+    color: rgb(9, 31, 31);
 }
 
 main {
@@ -98,6 +98,7 @@ footer {
 
 /* Media query for tablets and larger (>= 768px) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -111,7 +112,7 @@ footer {
         display: flex;
     }
 
-    #options > li {
+    #options>li {
         padding-left: 1rem;
     }
 
