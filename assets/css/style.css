@@ -104,8 +104,22 @@ main {
 #all-blacks {
     height: 600px;
     width: 100%;
-    background: url("../images/dave-gallaher-park.jpg") no-repeat center center/cover;
+    background: url("../images/AllBlackRamelton.webp") no-repeat center center/cover;
     position: relative;
+}
+
+#contact {
+    /* background-image: url("../images/dave-gallaher.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1; */
+
+    height: 600px;
+    width: 100%;
+    background: url("../images/allblacks2014.jpg") no-repeat center center/cover;
+    position: relative;
+
 }
 
 #cover-text {
@@ -115,12 +129,14 @@ main {
     bottom: 30px;
     width: 75%;
     min-height: 210px;
-    padding-top: 50px;
-    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 #cover-text>h2 {
     color: antiquewhite;
+    padding-bottom: 20px;
     font-weight: bold;
 }
 #cover-text>h3 {
@@ -146,7 +162,44 @@ main {
 }
 
 #about h2 {
+    padding-left: 20px;
     padding-bottom: 20px;
+}
+
+#story {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(131, 123, 123, 0.6);
+    padding: 30px;
+}
+
+#contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.make-contact-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* Media query for tablets and larger (>= 768px) */
@@ -207,7 +260,7 @@ main {
     #all-blacks {
         height: 1300px;
         width: 100%;
-        background: url("../images/dave-gallaher-park.jpg") no-repeat center center/cover;
+        background: url("../images/AllBlackRamelton.webp") no-repeat center center/cover;
     }
 
     /* target hero cover-text */
