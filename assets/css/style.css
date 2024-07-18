@@ -224,6 +224,18 @@ main {
     color: black;
 }
 
+.embedded-video-container {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
+
 /* Media query for tablets and larger (>= 768px) */
 @media screen and (min-width: 768px) {
 
