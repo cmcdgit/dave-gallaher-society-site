@@ -190,6 +190,7 @@ main {
     color: antiquewhite;
     background-color: rgba(27, 24, 24, 0.6);
     padding: 30px;
+    opacity: 1.0;
 }
 
 #contact-form > h2 {
