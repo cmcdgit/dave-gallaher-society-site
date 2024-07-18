@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-boxg;
+    box-sizing: border-box;
 }
 
 /* general styles */
@@ -109,21 +109,15 @@ main {
 }
 
 #contact {
-    /* background-image: url("../images/dave-gallaher.jpg");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1; */
-
-    height: 600px;
+    height: 800px;
+    font-size: 130%;
     width: 100%;
     background: url("../images/allblacks2014.jpg") no-repeat center center/cover;
     position: relative;
-
 }
 
-#cover-text {
-    background-color: rgba(128, 124, 124, 0.362);
+#about-cover-text {
+    background-color: rgba(10, 10, 10, 0.362);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -134,12 +128,33 @@ main {
     padding-left: 20px;
 }
 
-#cover-text>h2 {
+#about-cover-text>h2 {
     color: antiquewhite;
     padding-bottom: 20px;
     font-weight: bold;
 }
-#cover-text>h3 {
+#about-cover-text>h3 {
+    color: antiquewhite;
+}
+
+#visit-cover-text {
+    background-color: rgba(10, 10, 10, 0.362);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 75%;
+    min-height: 210px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#visit-cover-text>h2 {
+    color: antiquewhite;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#visit-cover-text>h3 {
     color: antiquewhite;
 }
 
@@ -172,25 +187,31 @@ main {
 }
 
 #contact-form {
-    color: #ffffff;
-    background-color: rgba(131, 123, 123, 0.6);
+    color: antiquewhite;
+    background-color: rgba(27, 24, 24, 0.6);
     padding: 30px;
 }
 
 #contact-form > h2 {
-    color: #fafafa;
+    color: antiquewhite;
+    padding-top: 30px;
     margin-bottom: 20px;
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa;
+    color: antiquewhite;
+    font-size: 110%;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid antiquewhite;
     border-radius: 2px;
     padding: 0 5px;
+}
+
+.discussion {
+    height: 100px;
 }
 
 .make-contact-button {
@@ -198,8 +219,8 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
+    background-color: antiquewhite;
+    color: black;
 }
 
 /* Media query for tablets and larger (>= 768px) */
@@ -237,11 +258,22 @@ main {
         margin-top: 75px;
     }
 
-    /* target hero cover-text */
-    #cover-text {
+    /* target hero about-cover-text */
+    #about-cover-text {
         width: 220px;
         right: 30px;
         margin-bottom: 220px;
+    }
+
+    /* target hero visit-cover-text */
+    #visit-cover-text {
+        width: 220px;
+        right: 30px;
+        margin-bottom: 220px;
+    }
+
+    #contact-form > h2 {
+        padding-top: 55px;
     }
 }
 
@@ -263,10 +295,28 @@ main {
         background: url("../images/AllBlackRamelton.webp") no-repeat center center/cover;
     }
 
-    /* target hero cover-text */
-    #cover-text {
+    #contact {
+        height: 1300px;
+        font-size: 130%;
+        width: 100%;
+        background: url("../images/allblacks2014.jpg") no-repeat center center/cover;
+    }
+
+    /* target hero about-cover-text */
+    #about-cover-text {
         width: 330px;
         right: 30px;
         margin-bottom: 890px;
+    }
+
+    /* target hero visit-cover-text */
+    #visit-cover-text {
+        width: 330px;
+        right: 30px;
+        margin-bottom: 890px;
+    }
+
+    #contact-form > h2 {
+        padding-top: 0px;
     }
 }
