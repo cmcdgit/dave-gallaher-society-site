@@ -261,7 +261,7 @@ iframe {
     }
 
     #logo {
-        font-size: 220%;
+        font-size: 180%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -275,14 +275,14 @@ iframe {
     #about-cover-text {
         width: 220px;
         right: 30px;
-        margin-bottom: 220px;
+        margin-bottom: 20px;
     }
 
     /* target hero visit-cover-text */
     #visit-cover-text {
         width: 220px;
         right: 30px;
-        margin-bottom: 220px;
+        margin-bottom: 20px;
     }
 
     #contact-form > h2 {
