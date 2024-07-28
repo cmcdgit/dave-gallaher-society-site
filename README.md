@@ -1,131 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dave Gallaher Society
 
-Welcome USER_NAME,
+## Intro
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Dave Gallaher is a very important part of the history of Ramelton.  Although Dave did not reside in Ramelton for too many years before he and his family emigrated to New Zealand, the fact that the first captain of the New Zealand rubgy team, known as 'The Originals' was born in a small Donegal town should not be underestimated. The Dave Gallaher Society wishes to protect this legacy and in so doing, promote Ramelton as a place to visit for rubgy and sports fans alike.  The Dave Gallaher Society has an online presence in the form of an official Facebook page but it is hoped that a regularly updated and well maintained website might be a good starting point for anyone interested in learning more about this story.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+  <img src="assets/images/dave-gallaher-park.jpg" alt="navigation bar" width="1200"/>
 
-## Gitpod Reminders
+## Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- **Navigation Bar**
+  - The navigation bar is available on all three pages of the site, so that navigating between the different pages is made easy no matter what page the user is currently on. Using the same navigation bar on each page ensures that how a user navigates is consistent across all three pages.
 
-A blue button should appear to click: _Make Public_,
+    <img src="assets/images/dgs-navbar.png" alt="navigation bar" width="1200"/>
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+- **Home Page**
+  - The home page provides some background information on Dave Gallaher and also features a hero image of Dave Gallaher.
 
-A blue button should appear to click: _Make Public_,
+    <img src="assets/images/dgs-homescreen.png" alt="home screen" width="1200"/>
 
-Another blue button should appear to click: _Open Browser_.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- **All Blacks Visit Page**
+  - This page outlines the story of the time some members of the All Blacks team visited Ramelton and Letterkenny to honour Dave Gallaher.
 
-To log into the Heroku toolbelt CLI:
+    <img src="assets/images/dgs-visit-screen.png" alt="visit screen" width="1200"/>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- **Make Contact Page**
+  - This page allows users to get in contact with the Dave Gallaher Society if they have any stories to share.
 
-### Connecting your Mongo database
+    <img src="assets/images/dgs-contact-screen-improved.png" alt="contact screen" width="1200"/>
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
-------
+- **Footer**
+  - The footer allows users to navigate to various different resources relevant to Dave Gallaher, such as the official Facebook page, a YouTube video telling the story of Dave Gallaher, Wikipedia's entry on Dave Gallaher and an RTE article on Dave Gallaher.
 
-## Release History
+    <img src="assets/images/dgs-footer.png" alt="contact screen" width="1200"/>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Button/Links
+  All buttons and links from within the Footer navigate the user to a newly opened tab featuring the relevent content.
 
-**June 18, 2024,** Add Mongo back into template
+### Features Left to Implement
+  It is expected that the site will have numerous improvements made in the future but the next feature that is expected to be added is a photo gallery page so that user provided photos can be shared the wider community.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+## Manual Testing
 
-**May 28 2024:** Fix Mongo and Links installs
+- The site was tested extensively using Chrome devtools to confirm that all pages look and behave as expected across all device sizes.
+- All links in the footer were tested to confirm that each will open a new browser tab and bring the user to the intended destination site.
 
-**April 26 2024:** Update node version to 16
+### Validator Testing
+  - **HTML**
+    - No errors were found using the official W3C validator
+  - **CSS**
+    - No errors were found using the the official (Jigsaw) validator
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Deployment
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The live link can be found here - https://cmcdgit.github.io/dave-gallaher-society-site/index.html
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Credits
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Content
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- The text for the Home page was generated using [ChatGPT](https://chatgpt.com/) and then successfully passed a test for plagiarism
+- The text for the All Blacks Visit page was generated using [ChatGPT](https://chatgpt.com/) and also successfully passed a test for plagiarism
+- The favicon icon in the tab/title bar was taken from [The Noun Project](https://thenounproject.com/browse/icons/term/rugby-ball/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Media
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The imag from the Dave Gallaher park at the top of this ReadMe is from the Dave Gallaher Society Facebook page
+- The hero image on the home page is from [The Irish Times](https://www.irishtimes.com/sport/rugby/international/in-1905-the-first-all-blacks-had-achieved-perfection-1.3696648)
+- The photo used on the visit page is from [Balls.ie](https://www.balls.ie/rugby/new-zealand-rugby-donegal-490763)
+- The team image on the make contact page is from [The Irish Times](https://www.irishtimes.com/sport/rugby/international/in-1905-the-first-all-blacks-had-achieved-perfection-1.3696648)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
